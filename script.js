@@ -6,54 +6,54 @@ const CATEGORY_META = {
 };
 
 const PROJECTS = {
-  "orchard-cafe": {
+  "anthropocene-reviewed": {
     category: "campaigns",
-    title: "Orchard Café Microsite",
-    tagline: "Launch microsite & brand identity for a neighborhood coffee shop",
-    role: "Web & Brand Designer",
+    title: "The Anthropocene Reviewed",
+    tagline: "Fan-made book microsite for John Green's essay collection",
+    role: "Personal Project — Web & Editorial Design",
     tools: "Webflow, Figma, Illustrator",
-    timeline: "6 weeks",
-    overview: "Designed and built a launch microsite for a new neighborhood café, pairing a full brand identity (logo, packaging, signage) with a simple one-page site used to drive opening-week foot traffic.",
+    timeline: "Personal project",
+    overview: "A fan-made promotional microsite for The Anthropocene Reviewed: Essays on a Human-Centered Planet by John Green — one of my favorite books. Designed as if it were a real publisher launch page, translating the book's reflective, review-style essay format into a warm, editorial site design.",
     highlights: [
-      "Designed a full identity system used across the site, packaging, and signage",
-      "Built and shipped the microsite solo, from wireframe to launch",
-      "Site launch coincided with the café's opening week going fully booked"
+      "Designed a microsite that reinterprets the book's essay format as an interactive scroll experience",
+      "Built a fictional 'star rating' interaction inspired by the book's signature essay structure",
+      "Explored publisher-style landing page conventions applied to a personal passion project"
     ],
     links: [
       { label: "View live site", url: "#", icon: "live" },
       { label: "View on GitHub", url: "#", icon: "github" }
     ]
   },
-  "sundrop-rebrand": {
+  "vivienne-westwood-campaign": {
     category: "campaigns",
-    title: "Sundrop Market Microsite",
-    tagline: "Rebrand microsite for a local farmers market",
-    role: "Lead Designer",
-    tools: "Webflow, Illustrator, Procreate",
-    timeline: "3 months",
-    overview: "Led a top-to-bottom rebrand for a long-running farmers market and built the microsite that introduced the new look to shoppers and vendors ahead of the season opener.",
+    title: "Vivienne Westwood Fashion Microsite",
+    tagline: "Concept still being decided — placeholder for now",
+    role: "Personal Project — Web & Fashion Design",
+    tools: "Webflow, Figma, Illustrator",
+    timeline: "Personal project",
+    overview: "A fan-made fashion microsite concept for Vivienne Westwood — direction still undecided between two ideas: a concept campaign built around an imagined FW26 'Belloni' collection, or an archival tribute to the Westwood pieces popularized by Ai Yazawa's manga Nana. This entry is a placeholder until that decision is made.",
     highlights: [
-      "Interviewed 12 vendors and shoppers to shape the creative direction",
-      "Designed and built the responsive rebrand microsite end to end",
-      "Rebrand contributed to a reported 18% increase in weekend foot traffic"
+      "Direction TBD — swap this project's copy once the concept is finalized",
+      "Will explore either a seasonal campaign concept or an archival/editorial tribute format",
+      "Placeholder kept in the Campaigns & Launches section to hold its spot"
     ],
     links: [
       { label: "View live site", url: "#", icon: "live" },
       { label: "View on GitHub", url: "#", icon: "github" }
     ]
   },
-  "honeydew-drop": {
+  "velvet-summer-rollout": {
     category: "campaigns",
-    title: "Honeydew Microsite",
-    tagline: "Product drop microsite & merch launch campaign",
-    role: "Graphic & Web Designer",
+    title: "Red Velvet — Velvet Summer Rollout",
+    tagline: "Fan-made album rollout microsite for Red Velvet's 'Velvet Summer' mini-album",
+    role: "Personal Project — Web & Campaign Design",
     tools: "Webflow, Photoshop, Illustrator",
-    timeline: "4 weeks",
-    overview: "Designed a limited-run merch and sticker collection for an indie brand's seasonal drop, along with the countdown microsite used to launch it.",
+    timeline: "Personal project",
+    overview: "A fan-made promotional rollout microsite imagining the campaign for Red Velvet's upcoming mini-album 'Velvet Summer,' released in two physical concepts — 'Big Wave' and 'High Tide.' Designed as a K-pop label-style countdown and concept reveal site.",
     highlights: [
-      "Illustrated a 6-piece sticker set that sold out within 48 hours of launch",
-      "Built a countdown microsite that drove early email signups",
-      "Designed the full promo kit for email, Instagram, and TikTok"
+      "Designed two distinct visual concepts ('Big Wave' and 'High Tide') for a single album rollout",
+      "Built a countdown-style microsite modeled after real K-pop comeback rollout sites",
+      "Explored dual-concept album marketing, a common K-pop release strategy"
     ],
     links: [
       { label: "View live site", url: "#", icon: "live" },
@@ -63,19 +63,19 @@ const PROJECTS = {
   "moss-meadow-zine": {
     category: "editorial",
     title: "Moss & Meadow Zine",
-    tagline: "Editorial illustration series for an indie print zine",
-    role: "Illustrator",
-    tools: "Procreate, InDesign",
-    timeline: "Ongoing, quarterly",
-    overview: "Illustrate a recurring editorial spread for a small-press nature zine, translating each issue's theme into a cohesive visual narrative across 6–8 print pages.",
+    tagline: "Print-style zine spreads, designed in Canva/InDesign and coded as a flippable web gallery",
+    role: "Illustrator & Web Designer",
+    tools: "Canva, InDesign, JavaScript",
+    timeline: "Personal project",
+    overview: "Designed a set of nature-themed zine spreads in Canva and InDesign, then exported them as images and coded a scroll-snap carousel so visitors can flip through the double-page spreads directly on the site, the way you'd flip through a print zine.",
     highlights: [
-      "Delivered original illustrations for 4 consecutive quarterly issues",
-      "Developed a visual style guide for future contributing artists",
-      "Illustrations were featured in the zine's first print exhibition"
+      "Designed full double-page spreads with a cohesive print-zine layout system",
+      "Exported spreads as images and coded a scroll-snap flipbook carousel from scratch",
+      "Built prev/next controls and page-position dots for an intuitive flip-through feel"
     ],
     media: {
-      type: "gallery",
-      images: [
+      type: "flipbook",
+      spreads: [
         { caption: "Cover spread" },
         { caption: "Feature spread" },
         { caption: "Back cover" }
@@ -85,65 +85,67 @@ const PROJECTS = {
   "wildflower-zine": {
     category: "editorial",
     title: "Wildflower Zine",
-    tagline: "Interactive digital zine, published as a live website",
+    tagline: "Digital flipbook zine, designed in Figma and coded as a page-turning site",
     role: "Content & Web Designer",
-    tools: "Webflow, Figma",
-    timeline: "2 months",
-    overview: "Designed and built an interactive digital zine — a scroll-driven, illustrated website that reimagines the print zine format for the web, with original layout and content for every spread.",
+    tools: "Figma, Canva, JavaScript",
+    timeline: "Personal project",
+    overview: "Designed the zine's double-page spreads in Figma, exported them as images, then coded a page-turning flipbook experience so the zine can be read spread-by-spread, directly embedded in the portfolio.",
     highlights: [
-      "Translated a print zine layout into a fully responsive scroll experience",
-      "Designed and wrote all 8 spreads, plus the interactive navigation",
-      "Site has been used as a portfolio piece in 2 speaking engagements"
-    ],
-    links: [
-      { label: "Open live zine", url: "#", icon: "live" }
+      "Designed and laid out 6+ double-page spreads in Figma",
+      "Coded a lightweight scroll-snap flipbook component reused across both zine projects",
+      "Focused on a smooth, swipeable page-turn feel on both desktop and mobile"
     ],
     media: {
-      type: "embed",
-      url: "#",
-      note: "Interactive zine embed"
+      type: "flipbook",
+      spreads: [
+        { caption: "Cover spread" },
+        { caption: "Spread 1" },
+        { caption: "Spread 2" },
+        { caption: "Back cover" }
+      ]
     }
   },
-  "case-study-breakdown": {
-  category: "strategy",
-  title: "Case Study Breakdown",
-  tagline: "A guided breakdown & analysis of a real marketing case study",
-  role: "Marketing Analyst",
-  tools: "Google Docs, Miro",
-  timeline: "1 week",
-  overview: "Selected and broke down a real brand marketing case study, mapping out the campaign's strategy, execution, and results to identify what worked, what didn't, and what could be applied to future campaigns.",
-  highlights: [
-    "Reverse-engineered the campaign's target audience and positioning strategy",
-    "Mapped the full campaign timeline against key performance results",
-    "Distilled the analysis into 3 transferable takeaways for future campaigns"
-  ],
-  media: {
-    type: "gallery",
-    images: [
-      { caption: "Campaign overview" },
-      { caption: "Strategy breakdown" },
-      { caption: "Key takeaways" }
-    ]
-  }
-},
-  "analytics-dashboard": {
+   "newjeans-case-study": {
     category: "strategy",
-    title: "Analytics Dashboard",
-    tagline: "Campaign performance dashboard & reporting system",
-    role: "Marketing Analyst",
-    tools: "Google Sheets, Looker Studio",
-    timeline: "Ongoing",
-    overview: "Built a recurring performance dashboard to track campaign reach, engagement, and conversion across channels, used to guide monthly strategy check-ins.",
+    title: "NewJeans: Rise, Fall & Return",
+    tagline: "A case study breakdown of NewJeans' rapid rise, public fallout, and return",
+    role: "Personal Project — Market & Culture Analysis",
+    tools: "Google Docs, Miro",
+    timeline: "Personal project",
+    overview: "A case study breakdown of K-pop group NewJeans — examining their rapid rise built on a distinct Y2K, girl-next-door concept and viral marketing, the public dispute with their label that led to their hiatus, and their recent return to social media without one of the group's original five members.",
     highlights: [
-      "Consolidated 3 data sources into a single automated weekly report",
-      "Designed the dashboard layout for fast, at-a-glance reads",
-      "Findings directly informed 2 mid-campaign strategy pivots"
+      "Mapped NewJeans' brand concept and marketing timeline from debut through hiatus",
+      "Analyzed how the label dispute shaped fan sentiment and public brand perception",
+      "Broke down the messaging strategy behind the group's return to social media"
     ],
     media: {
       type: "gallery",
       images: [
-        { caption: "Dashboard overview" },
-        { caption: "Traffic breakdown" }
+        { caption: "Brand concept & debut" },
+        { caption: "Marketing timeline" },
+        { caption: "Return strategy breakdown" }
+      ]
+    }
+  },
+  "txt-tws-comparison": {
+    category: "strategy",
+    title: "TXT vs. TWS: Market Strategy Comparison",
+    tagline: "Comparing how two boy groups built success in different markets",
+    role: "Personal Project — Market & Competitive Analysis",
+    tools: "Google Docs, Miro, Google Sheets",
+    timeline: "Personal project",
+    overview: "A side-by-side case study comparing Tomorrow X Together (TXT) and TWS — two HYBE boy groups with different market outcomes. TXT has built crossover success in both the Korean and international markets, while TWS has found success primarily within Korea. This breakdown explores how differences in group concept, musical style, and marketing strategy shaped each group's audience reach.",
+    highlights: [
+      "Compared group concept, sound, and visual identity across both acts",
+      "Mapped each group's marketing channels and where they concentrate audience reach",
+      "Identified the factors behind TXT's crossover success versus TWS's domestic-first traction"
+    ],
+    media: {
+      type: "gallery",
+      images: [
+        { caption: "Concept & positioning" },
+        { caption: "Marketing channel comparison" },
+        { caption: "Market reach findings" }
       ]
     }
   },
@@ -341,7 +343,64 @@ function renderMedia(media) {
     `;
   }
 
+  if (media.type === "flipbook") {
+    const spreads = media.spreads || [];
+    const uid = "fb-" + Math.random().toString(36).slice(2, 9);
+    const slides = spreads.map(s => {
+      if (s.src) {
+        return `
+          <div class="flipbook-slide">
+            <img src="${s.src}" alt="${s.caption}" onclick="openLightbox('${s.src}', '${(s.caption || '').replace(/'/g, "\\'")}')">
+          </div>
+        `;
+      }
+      return `
+        <div class="flipbook-slide flipbook-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><rect x="2" y="4" width="9" height="16" rx="1.5"/><rect x="13" y="4" width="9" height="16" rx="1.5"/></svg>
+          <p>${s.caption}</p>
+        </div>
+      `;
+    }).join("");
+    const dots = spreads.map((_, i) => `<span class="flip-dot${i === 0 ? ' active' : ''}"></span>`).join("");
+    return `
+      <div class="project-media">
+        <h3>Take a look</h3>
+        <div class="flipbook" id="${uid}">
+          <button class="flip-arrow flip-prev" onclick="flipPage('${uid}', -1)" aria-label="Previous spread">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M15 6l-6 6 6 6"/></svg>
+          </button>
+          <div class="flipbook-track">${slides}</div>
+          <button class="flip-arrow flip-next" onclick="flipPage('${uid}', 1)" aria-label="Next spread">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+        <div class="flipbook-dots" data-dots-for="${uid}">${dots}</div>
+      </div>
+    `;
+  }
+
   return "";
+}
+
+// ---------- FLIPBOOK CONTROLS ----------
+function flipPage(id, dir) {
+  const track = document.querySelector(`#${id} .flipbook-track`);
+  if (!track) return;
+  const slide = track.querySelector(".flipbook-slide");
+  const slideWidth = slide.offsetWidth + 16;
+  track.scrollBy({ left: dir * slideWidth, behavior: "smooth" });
+  setTimeout(() => updateFlipDots(id), 300);
+}
+
+function updateFlipDots(id) {
+  const track = document.querySelector(`#${id} .flipbook-track`);
+  const dotsWrap = document.querySelector(`[data-dots-for="${id}"]`);
+  if (!track || !dotsWrap) return;
+  const slide = track.querySelector(".flipbook-slide");
+  if (!slide) return;
+  const slideWidth = slide.offsetWidth + 16;
+  const index = Math.round(track.scrollLeft / slideWidth);
+  dotsWrap.querySelectorAll(".flip-dot").forEach((d, i) => d.classList.toggle("active", i === index));
 }
 
 function createProjectPanel(id, data) {
@@ -394,6 +453,14 @@ function createProjectPanel(id, data) {
 
   panel.querySelector("[data-back]").addEventListener("click", () => showTab("projects"));
 
+  panel.querySelectorAll(".flipbook-track").forEach(track => {
+    const wrapId = track.closest(".flipbook").id;
+    track.addEventListener("scroll", () => {
+      clearTimeout(track._scrollTimer);
+      track._scrollTimer = setTimeout(() => updateFlipDots(wrapId), 100);
+    });
+  });
+
   dynamicPanels.appendChild(panel);
 }
 
@@ -401,4 +468,3 @@ function createProjectPanel(id, data) {
 document.querySelectorAll(".tile[data-project]").forEach(tile => {
   tile.addEventListener("click", () => openProject(tile.dataset.project));
 });
-

@@ -454,6 +454,57 @@ body{
 .embed-placeholder p{ margin:0 0 4px; font-family:'Baloo 2', sans-serif; font-size:14.5px; color:var(--olive); }
 .embed-placeholder span{ font-family:'Space Mono', monospace; font-size:11.5px; color:#8a7a5f; }
 
+/* ---------- FLIPBOOK (double-page-spread carousel) ---------- */
+.flipbook{
+  position:relative;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.flipbook-track{
+  flex:1;
+  display:flex;
+  gap:16px;
+  overflow-x:auto;
+  scroll-snap-type:x mandatory;
+  scroll-behavior:smooth;
+  border-radius:14px;
+  scrollbar-width:none;
+}
+.flipbook-track::-webkit-scrollbar{ display:none; }
+.flipbook-slide{
+  flex:0 0 100%;
+  scroll-snap-align:center;
+  aspect-ratio:40/30;
+  border:2px solid var(--sage-dark);
+  border-radius:14px;
+  overflow:hidden;
+  background:var(--paper);
+  box-shadow:0 4px 0 rgba(67,90,44,0.2);
+}
+.flipbook-slide img{ width:100%; height:100%; object-fit:cover; cursor:zoom-in; display:block; }
+.flipbook-placeholder{
+  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px;
+}
+.flipbook-placeholder svg{ width:44px; height:26px; stroke:var(--sage-dark); opacity:0.6; }
+.flipbook-placeholder p{ margin:0; font-family:'Space Mono', monospace; font-size:12.5px; color:#6b5a44; }
+.flip-arrow{
+  flex-shrink:0;
+  width:38px; height:38px;
+  border-radius:50%;
+  border:2px solid var(--sage-dark);
+  background: linear-gradient(180deg,#EFE6C2,#DED2A2);
+  display:flex; align-items:center; justify-content:center;
+  box-shadow: 0 3px 0 rgba(67,90,44,0.4);
+  cursor:pointer;
+}
+.flip-arrow svg{ width:16px; height:16px; stroke:var(--olive); }
+.flipbook-dots{ display:flex; justify-content:center; gap:6px; margin-top:10px; }
+.flip-dot{ width:7px; height:7px; border-radius:50%; background:var(--sage); border:1.5px solid var(--sage-dark); transition: background .15s ease; }
+.flip-dot.active{ background:var(--apple-red); }
+
 footer{
   text-align:center; padding: 16px; background: var(--cream-deep);
   font-family:'Space Mono', monospace; font-size: 11.5px; color: var(--sage-dark);
