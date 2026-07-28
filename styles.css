@@ -222,7 +222,7 @@ body{
 .hero-photo{
   position:absolute; 
   right: 100px;
-  top: auto; 
+  top: 150px; 
   bottom:250px; 
   width: 200px;
 }
@@ -281,7 +281,14 @@ body{
   padding: 3px 9px; border-radius: 6px; margin-bottom:10px;
 }
 
-.contact-icons{ display:flex; justify-content:center; gap:12px; flex-wrap:wrap; }
+.contact-icons{ 
+  display:flex; 
+  justify-content:center; 
+  gap:12px; 
+  flex-wrap:wrap; 
+  margin-top: 15px;
+}
+
 .contact-icons a{
   display:flex; align-items:center; gap:8px; background: var(--cream);
   border: 2px solid var(--sage-dark); border-radius: 999px; padding: 10px 16px;
