@@ -220,7 +220,7 @@ body{
 
 
 .hero-photo{
-  position:absolute; 
+  position:relative; 
   right: 100px;
   top: 150px; 
   bottom:250px; 
