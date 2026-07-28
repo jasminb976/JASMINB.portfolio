@@ -273,7 +273,7 @@ body{
 }
 .card-head h3{ margin:0; font-family:'Baloo 2', sans-serif; font-size: 20px; color: var(--olive); }
 .card-head .icon{ width:30px; height:30px; }
-.card-body{ padding: 18px 20px 22px; font-size: 14.5px; line-height:1.65; color:#5A4632; }
+.card-body{ padding: 25px 20px 22px; font-size: 14.5px; line-height:1.65; color:#5A4632; }
 .card-body b{ color:var(--olive); }
 .badge{
   display:inline-block; font-family:'Space Mono', monospace; font-size:11px;
