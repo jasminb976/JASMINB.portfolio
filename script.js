@@ -107,16 +107,17 @@ const PROJECTS = {
   },
    "newjeans-case-study": {
     category: "strategy",
-    title: "NewJeans: Rise, Fall & Return",
-    tagline: "A case study breakdown of NewJeans' rapid rise, public fallout, and return",
+    title: "The Rise and Fall of NewJeans (and Their Return)",
+    tagline: "A Brand Lifecycle &amp Crisis Management Analysis of K-pop Group NewJeans",
     role: "Personal Project — Market & Culture Analysis",
     tools: "Google Docs, Miro",
     timeline: "Personal project",
-    overview: "A case study breakdown of K-pop group NewJeans — examining their rapid rise built on a distinct Y2K, girl-next-door concept and viral marketing, the public dispute with their label that led to their hiatus, and their recent return to social media without one of the group's original five members.",
+    overview: "A comprehensive business deep dive into the meteoric rise and strategic vulnerabilities of ADOR's flagship girl group, NewJeans. This case study analyzes how the group redefined the 4th/5th generation K-pop aesthetic through Y2K nostalgia and unconventional marketing, juxtaposed against the structural and corporate friction that disrupted their market momentum.",
     highlights: [
-      "Mapped NewJeans' brand concept and marketing timeline from debut through hiatus",
-      "Analyzed how the label dispute shaped fan sentiment and public brand perception",
-      "Broke down the messaging strategy behind the group's return to social media"
+      "Disruptive Marketing: Analyzing the 'no-teaser' surprise drop strategy and its impact on organic digital engagement",
+      "Brand Positioning: How the group bridged the gap between subculture aesthetics and luxury global ambassadorships (Chanel, Gucci, Dior) early in their career",
+      "Corporate Risk & Fandom Longetivity: Evaluating the impact of corporate-level disputes on brand equity, consumer sentiment, and international streaming metrics",
+      "The Takeaway: Providing an actionable framework for entertainment executives on how to build hyper-distinct brand identities while mitigating corporate risks and maintaining intellectual property stability in volatile entertainment ecosystems"
     ],
     media: {
       type: "gallery",
@@ -129,16 +130,17 @@ const PROJECTS = {
   },
   "txt-tws-comparison": {
     category: "strategy",
-    title: "TXT vs. TWS: Market Strategy Comparison",
-    tagline: "Comparing how two boy groups built success in different markets",
+    title: "TWS vs. TOMORROW X TOGETHER (TXT) Case Study",
+    tagline: "Comparative Market Positioning in Multi-Label Ecosystems",
     role: "Personal Project — Market & Competitive Analysis",
     tools: "Google Docs, Miro, Google Sheets",
     timeline: "Personal project",
-    overview: "A side-by-side case study comparing Tomorrow X Together (TXT) and TWS — two HYBE boy groups with different market outcomes. TXT has built crossover success in both the Korean and international markets, while TWS has found success primarily within Korea. This breakdown explores how differences in group concept, musical style, and marketing strategy shaped each group's audience reach.",
+    overview: "A data-driven market comparison examing the demographic targeting, sonics, and rollout strategies of Pledis Entertainment's TWS against Hit Music's TOMORROW X TOGETHER (TXT). This study deconstructs how two distinct generations under the same corporate umbrella capture different segments of the global youth market.",
     highlights: [
-      "Compared group concept, sound, and visual identity across both acts",
-      "Mapped each group's marketing channels and where they concentrate audience reach",
-      "Identified the factors behind TXT's crossover success versus TWS's domestic-first traction"
+      "Target Audience Segmentation: Mapping TXT's lore-heavy angsty concept aimed at Gen Z against TWS's refreshing, accessible 'Boyhood Pop' aimed at broader domestic and global audiences",
+      "Rollout Analytics: Comparing first-week album sales, streaming retention, and TikTok/Reels engagement metrics to evaluate the launch velocity of a 4th-gen establised group vs. a 5th-gen rookie group",
+      "Multi-Label Synergy: An analysis of how parent corporations optimize resources and differentiate brand identities to avoid market cannibalization",
+      "The Takeaway: Demonstrates a sophisticated understanding of portfolio management in the entertainment sector, offering insights into how legacy labels can successfully launch new talent without diluting existing flagship assets"
     ],
     media: {
       type: "gallery",
