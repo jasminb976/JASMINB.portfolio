@@ -9,9 +9,9 @@ const PROJECTS = {
   "anthropocene-reviewed": {
     category: "campaigns",
     title: "The Anthropocene Reviewed",
-    tagline: "Fan-made book microsite for John Green's essay collection",
+    tagline: "Fan-made book microsite for John Green's essay collection book",
     role: "Personal Project — Web & Editorial Design",
-    tools: "Webflow, Figma, Illustrator",
+    tools: "VS Code, Github, Procreate",
     timeline: "Personal project",
     overview: "A fan-made promotional microsite for The Anthropocene Reviewed: Essays on a Human-Centered Planet by John Green — one of my favorite books. Designed as if it were a real publisher launch page, translating the book's reflective, review-style essay format into a warm, editorial site design.",
     highlights: [
@@ -25,29 +25,29 @@ const PROJECTS = {
     ]
   },
   "vivienne-westwood-campaign": {
-    category: "campaigns",
-    title: "Vivienne Westwood Fashion Microsite",
-    tagline: "Concept still being decided — placeholder for now",
-    role: "Personal Project — Web & Fashion Design",
-    tools: "Webflow, Figma, Illustrator",
-    timeline: "Personal project",
-    overview: "A fan-made fashion microsite concept for Vivienne Westwood — direction still undecided between two ideas: a concept campaign built around an imagined FW26 'Belloni' collection, or an archival tribute to the Westwood pieces popularized by Ai Yazawa's manga Nana. This entry is a placeholder until that decision is made.",
-    highlights: [
-      "Direction TBD — swap this project's copy once the concept is finalized",
-      "Will explore either a seasonal campaign concept or an archival/editorial tribute format",
-      "Placeholder kept in the Campaigns & Launches section to hold its spot"
-    ],
-    links: [
-      { label: "View live site", url: "#", icon: "live" },
-      { label: "View on GitHub", url: "#", icon: "github" }
-    ]
-  },
+  category: "campaigns",
+  title: "Vivienne Westwood x Nana",
+  tagline: "Archival tribute microsite for the Westwood pieces made iconic by Nana",
+  role: "Personal Project — Web & Editorial Design",
+  tools: "VS Code, Github, Procreate",
+  timeline: "Personal project",
+  overview: "A fan-made archival tribute microsite exploring the Vivienne Westwood pieces most associated with Ai Yazawa's manga Nana — particularly the punk-inspired looks worn by Nana Osaki, which introduced a generation of readers to Westwood's designs. Framed as a digital lookbook rather than a seasonal campaign, cataloging key pieces (orb jewelry, corsetry, tartan, platform boots) alongside the in-manga moments that made them iconic.",
+  highlights: [
+    "Curated an archival lookbook connecting specific Westwood pieces to Nana Osaki's looks",
+    "Designed the site as a digital archive/lookbook format instead of a seasonal campaign",
+    "Explored how a manga shaped real-world fashion demand for a specific designer"
+  ],
+  links: [
+    { label: "View live site", url: "#", icon: "live" },
+    { label: "View on GitHub", url: "#", icon: "github" }
+  ]
+},
   "velvet-summer-rollout": {
     category: "campaigns",
     title: "Red Velvet — Velvet Summer Rollout",
     tagline: "Fan-made album rollout microsite for Red Velvet's 'Velvet Summer' mini-album",
     role: "Personal Project — Web & Campaign Design",
-    tools: "Webflow, Photoshop, Illustrator",
+    tools: "VS Code, Github, Procreate",
     timeline: "Personal project",
     overview: "A fan-made promotional rollout microsite imagining the campaign for Red Velvet's upcoming mini-album 'Velvet Summer,' released in two physical concepts — 'Big Wave' and 'High Tide.' Designed as a K-pop label-style countdown and concept reveal site.",
     highlights: [
@@ -65,7 +65,7 @@ const PROJECTS = {
     title: "Moss & Meadow Zine",
     tagline: "Print-style zine spreads, designed in Canva/InDesign and coded as a flippable web gallery",
     role: "Illustrator & Web Designer",
-    tools: "Canva, InDesign, JavaScript",
+    tools: "Figma, Procreate",
     timeline: "Personal project",
     overview: "Designed a set of nature-themed zine spreads in Canva and InDesign, then exported them as images and coded a scroll-snap carousel so visitors can flip through the double-page spreads directly on the site, the way you'd flip through a print zine.",
     highlights: [
@@ -87,7 +87,7 @@ const PROJECTS = {
     title: "Wildflower Zine",
     tagline: "Digital flipbook zine, designed in Figma and coded as a page-turning site",
     role: "Content & Web Designer",
-    tools: "Figma, Canva, JavaScript",
+    tools: "Figma, Procreate",
     timeline: "Personal project",
     overview: "Designed the zine's double-page spreads in Figma, exported them as images, then coded a page-turning flipbook experience so the zine can be read spread-by-spread, directly embedded in the portfolio.",
     highlights: [
@@ -116,7 +116,7 @@ const PROJECTS = {
     highlights: [
       "Disruptive Marketing: Analyzing the 'no-teaser' surprise drop strategy and its impact on organic digital engagement",
       "Brand Positioning: How the group bridged the gap between subculture aesthetics and luxury global ambassadorships (Chanel, Gucci, Dior) early in their career",
-      "Corporate Risk & Fandom Longetivity: Evaluating the impact of corporate-level disputes on brand equity, consumer sentiment, and international streaming metrics",
+      "Corporate Risk & Fandom Longevity: Evaluating the impact of corporate-level disputes on brand equity, consumer sentiment, and international streaming metrics",
       "The Takeaway: Providing an actionable framework for entertainment executives on how to build hyper-distinct brand identities while mitigating corporate risks and maintaining intellectual property stability in volatile entertainment ecosystems"
     ],
     media: {
@@ -135,10 +135,10 @@ const PROJECTS = {
     role: "Personal Project — Market & Competitive Analysis",
     tools: "Google Docs, Miro, Google Sheets",
     timeline: "Personal project",
-    overview: "A data-driven market comparison examing the demographic targeting, sonics, and rollout strategies of Pledis Entertainment's TWS against Hit Music's TOMORROW X TOGETHER (TXT). This study deconstructs how two distinct generations under the same corporate umbrella capture different segments of the global youth market.",
+    overview: "A data-driven market comparison examining the demographic targeting, sonics, and rollout strategies of Pledis Entertainment's TWS against Hit Music's TOMORROW X TOGETHER (TXT). This study deconstructs how two distinct generations under the same corporate umbrella capture different segments of the global youth market.",
     highlights: [
       "Target Audience Segmentation: Mapping TXT's lore-heavy angsty concept aimed at Gen Z against TWS's refreshing, accessible 'Boyhood Pop' aimed at broader domestic and global audiences",
-      "Rollout Analytics: Comparing first-week album sales, streaming retention, and TikTok/Reels engagement metrics to evaluate the launch velocity of a 4th-gen establised group vs. a 5th-gen rookie group",
+      "Rollout Analytics: Comparing first-week album sales, streaming retention, and TikTok/Reels engagement metrics to evaluate the launch velocity of a 4th-gen established group vs. a 5th-gen rookie group",
       "Multi-Label Synergy: An analysis of how parent corporations optimize resources and differentiate brand identities to avoid market cannibalization",
       "The Takeaway: Demonstrates a sophisticated understanding of portfolio management in the entertainment sector, offering insights into how legacy labels can successfully launch new talent without diluting existing flagship assets"
     ],
